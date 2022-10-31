@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha página</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<style>
+   
+      
+</style>
+<body>
+
+    <img id="img9" src="Elias (3).jpg" alt="">
+    <div id="lin8"></div>
+    <h1 id="txt">Linguagens</h1>
+     <div id="lin1"></div>
+    <div id="lin3"></div>
+    <div id="lin4"></div>
+    <div id="txt5"></div>
+    <div id="lin6"></div>
+    <img id="img1" src="SQL.jpg" alt="">
+    <img id="img3" src="Python (1).png" alt="">
+    <img id="img2" src="JavaScript-Logo.png" alt="" >
+    <button id="b1" onclick="clicar()">detalhes</button>  
+    <button id="b2" onclick="clicar2()">detalhes</button>
+    <button id="b3" onclick="clicar3()">detalhes</button>
+    <div id="mais"> <p></p> &nbsp; Atualmente estou aprendendo esta linguagem, <br> tenho conhecimento basico com banco de dados. <br>Para mais informações acesse meu <a href="https://github.com/EliasPY1" target="_blank">github</a> </p> </div> 
+    <div id="mais2"><p>&nbsp; Tenho uma boa prática com a linguagem Python <br>&nbsp; possuo alguns projetos relacionados com automação <br>&nbsp; e cálculos de programas diversos. <br> &nbsp; Para mais informações acesse meu <a href="https://github.com/EliasPY1" target="_blank">github</a></p></div>
+    <div id="mais3"><p>&nbsp; Essa é a linguagem que estou mais ultilizando no momento, <br>tenho alguns projetos com a linguagem  um deles e uma página<br>de login e senha e um outro seria a minha propria página pessoal. <br>&nbsp;Para mais informações acesse meu <a href="https://github.com/EliasPY1" target="_blank">github</a> </p></div>
+    
+    
+    
+    
+  
+</body>
+<script>
+function clicar(){
+
+    var botao = document.getElementById('b1')
+    var maistexto = document.getElementById('mais')
+if(botao.innerHTML == 'detalhes'){
+    botao.innerHTML = 'menos'
+    maistexto.style.display = 'inline' 
+}else{
+    botao.innerHTML = 'detalhes'
+    maistexto.style.display = 'none'
+}
+ }
+
+function clicar2(){
+     var maistexto2 = document.getElementById('mais2')
+     var b2 = document.getElementById('b2')
+if(b2.innerHTML == 'detalhes'){
+     b2.innerHTML = 'menos'
+     maistexto2.style.display = 'inline'
+}else{
+     b2.innerHTML = 'detalhes'
+     maistexto2.style.display = 'none'
+} 
+}
+
+function clicar3(){
+   var b3 = document.getElementById('b3')
+   var maistexto3 = document.getElementById('mais3')
+if(b3.innerHTML == 'detalhes'){
+   b3.innerHTML = 'menos'
+   maistexto3.style.display = 'inline'
+}else{
+   b3.innerHTML = 'detalhes'
+   maistexto3.style.display = 'none'
+}
+}                   
+        
+</script>
+</html>

@@ -1,0 +1,128 @@
+h1{
+    position: relative;
+    bottom: 30px;
+    margin-left: 42%;
+    margin-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('fundo-de-formas-abstratas-brancas_79603-1362.webp');
+}
+
+div#lin1{
+   height: 210px;
+   border-right: 1px solid rgb(27, 26, 27);
+   margin-right: 52%;
+   margin-top: 30px;
+}
+
+div#lin3{
+    width: 500px;
+    border: 1px solid #000;
+    margin-left: 48%;
+    margin-top: -60px;
+}
+div#lin4{
+    width: 510px;
+    border: 1px solid #000;
+    margin-left: 10%;
+    margin-top: -2px;
+}
+div#txt5{
+    height: 70px;
+    border-right: 1px solid black;
+    margin-right: 189px;
+}
+div#lin6{
+    height: 73px;
+    border-right: 1px solid black;
+    margin-right: 90%;
+    margin-top: -72px;
+}
+img#img1{
+    margin-top: 12px;
+    margin-left: 6%;
+}
+img#img2{
+    margin-left: 82%;
+    margin-top: -150px;
+    
+    
+}
+img#img3{
+   position: relative; 
+   margin-left: 580px;
+   margin-top: -330px;
+}
+#b1:hover{
+    transform: scale(1.1);
+}
+button#b1{
+    cursor: pointer;
+    margin-left: 96px;
+    margin-top: -33px;
+    background-color: rgb(62, 36, 129);
+    color: white;
+    border-radius: 8px;
+}
+    button#b1,img#img1{
+        display: flex;
+    }
+    button#b2{
+        margin-left: 598px;
+        margin-top: -48px;
+        cursor: pointer;
+        border-radius: 8px;
+        background-color: rgb(62, 36, 129);
+        color: white;  
+    }
+    #b2:hover{
+        transform: scale(1.1);
+    }
+    #b3{
+    margin-left: 1109px;
+    margin-top: -307px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color:rgb(62, 36, 129);
+    color: white;     
+    }
+    #b3:hover{
+        transform: scale(1.1);
+    }
+    
+
+    #mais{
+   display: none;     
+   position: relative;
+   bottom: 50px;
+}
+     #mais2{
+    display: none;
+    position: relative;
+    left: 470px;
+    bottom: 30px;
+}
+#mais3{
+    display: none;
+    position: relative;
+    left: 935px;
+    bottom: 5px;
+}
+#lin8{
+    position: relative;
+    height: 60px;
+    width: 1px;
+    left: 638px;
+    top: 140px;
+    background-color: black;
+}
+#img9{
+    position: relative;
+    left: 589px;
+    top: 110px;
+    border-radius: 8px;
+}
+
+
+
